@@ -1,3 +1,24 @@
 .receita__conteudo{
-    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0; 
+    transition-delay: .3s;
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
 }
+.receita__conteudo:hover{
+    animation: go-back 1s;
+}
+@keyframes go-back {
+    0% {
+      transform: translatex(200px);
+    }
+    100% {
+      transform: translatex(0);
+    }
+  }

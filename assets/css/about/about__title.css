@@ -5,3 +5,9 @@
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     
 }
+
+.about__title:hover{
+    color:  #620404;
+    cursor: pointer;
+
+}

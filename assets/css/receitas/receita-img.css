@@ -1,5 +1,7 @@
 .receita__imagem{
-    height: 200px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }.receita__imagem:hover{
     cursor: pointer;
 }
