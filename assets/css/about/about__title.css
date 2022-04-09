@@ -1,13 +1,19 @@
 .about__title{
-    color: var(--main-color);
+    color: var(--main-hover);
     font-family: pacifico, cursive;
-    font-size: 3.1875rem;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    font-size: 2.4rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    padding-right: 20px;
+    padding-top: 50px;
     
 }
 
 .about__title:hover{
-    color:  var(--main-hover);
+    color:  var(--main-color);
     cursor: pointer;
 
+}
+.about p{
+    padding-top: 30px;
+    font-size: 1.5rem;
 }

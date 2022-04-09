@@ -1,5 +1,6 @@
 .about__description{
-    color: var(--secondary-color);
+    color: var(--secondary-hover);
     font-size: 1.79rem;
     font-weight: 100;
+    padding-right: 20px;
 }
