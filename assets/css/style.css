@@ -9,9 +9,7 @@
     padding-left: 2rem;
     
 }
-.nav{
-    
-}
+
 .nav .nav__list{
     display: flex;    
 }
@@ -36,5 +34,9 @@
 .nav .nav__list .nav__item a:hover{
     color:#620404;
 }
-
+.logo{
+    font-family: Pacifico;
+    color: #8d0606;
+    font-size: 1.3rem;
+}
 /* */
