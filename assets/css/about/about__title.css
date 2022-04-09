@@ -1,5 +1,5 @@
 .about__title{
-    color: #8d0606;
+    color: var(--main-color);
     font-family: pacifico, cursive;
     font-size: 3.1875rem;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
@@ -7,7 +7,7 @@
 }
 
 .about__title:hover{
-    color:  #620404;
+    color:  var(--main-hover);
     cursor: pointer;
 
 }

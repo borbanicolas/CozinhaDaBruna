@@ -1,4 +1,5 @@
 .about{
     text-align: center;
     padding: 2.5rem;
+    background: var(--header-background);
 }

@@ -1,6 +1,6 @@
 .banner__title{
     font-family: Pacifico, cursive;
-    color: #fdfdfd;
+    color: var(--header-background);
     font-size: 5.0625rem;
     position: absolute;
     left: 50%;
@@ -9,4 +9,13 @@
     text-align: center;
     transform: translate(-50%, -50%);
     width: 100%;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }100% {
+     opacity: 1;
+    }
 }

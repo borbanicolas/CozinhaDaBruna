@@ -1,13 +1,25 @@
 /* header */
 
+:root{
+    --main-color: #FFBA7C;
+    --main-hover:#E49052;
+    --secondary-color:#919974;
+    --secondary-hover:#7c8046;
+    --background-color: #f5e7cc;
+    --header-background: #fdfdfd;
+}
+
 #header{
     display: flex;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: var(--header-background);
     justify-content: space-between;
     padding-right: 2rem;
     padding-left: 2rem;
     height: 70px;
+    position: relative;
+    top:0;
+    left: 0;
     
 }
 
@@ -22,22 +34,22 @@
     margin-right: 0;
 }
 .nav .nav__list .nav__item a{
-        color: #808080;
+        color: var(--main-color);
         text-decoration: none;  
         margin-right: 1.25rem;
         text-transform: lowercase;
         transition: all .3s ease-in-out;
 }
 .nav .nav__list .nav__item a#ativo {
-    color: #620404;
+    color: var(--main-hover);
     font-weight: bold;
 }
 .nav .nav__list .nav__item a:hover{
-    color:#620404;
+    color: var(--main-hover);
 }
 .logo{
     font-family: Pacifico;
-    color: #8d0606;
+    color: var(--main-hover);
     font-size: 1.3rem;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.43);
 }
@@ -45,3 +57,7 @@
     cursor: pointer;
 }
 /* */
+.posicaoFixa{ 
+
+   
+}
