@@ -38,5 +38,9 @@
     font-family: Pacifico;
     color: #8d0606;
     font-size: 1.3rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.43);
+}
+.logo:hover{
+    cursor: pointer;
 }
 /* */
