@@ -1,0 +1,5 @@
+.receita__imagem{
+    height: 200px;
+}.receita__imagem:hover{
+    cursor: pointer;
+}

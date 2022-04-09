@@ -1,6 +1,8 @@
 
 .banner__img{
     width: 100%;
-    max-height: 445px;
+    height: calc(100vh - 72px);
     object-fit: cover;
+    -webkit-box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.83); 
+    box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.83);
 }
